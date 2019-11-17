@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="Estilos/style.css">
+    <link rel="stylesheet" href="fonts/style_icons.css">
+    <title>Tabla</title>
+</head>
+<body>
+    <div class="centrado titulo">
+        <h1>Visualizador de lista de tareas</h1>
+    </div>
+    <div class="centrado">
+        <form action="tareas.php" method="post" class="formIngreso">
+            <h2 class="tituloIngreso">Formulario Ingreso</h2>
+            <h4 class="tituloIngreso">Ingresa tu número de identificación para continuar</h4>
+            <input type="text" class="entradaUsuario inputSize" name="inputUsuario" placeholder="Ej. 25789123" 
+             required pattern="[0-9]{5,12}">
+            <input type="submit" class="entradaUsuario botonEnviar" value="Enviar">
+            
+        </form> 
+    </div>
+</body>
+</html>
